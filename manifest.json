@@ -1,0 +1,26 @@
+{
+   "manifest_version": 2,
+   "name": "Mini Spotify Player",
+   "short_name": "Spotify Mini",
+   "description": "Mini chrome player for Spotify ",
+   "version": "1.0",
+   "icons": {
+      "128": "128.png"
+   },
+
+   "permissions": [
+      "webview",
+      "storage",
+      "<all_urls>",
+      "contextMenus",
+      "notifications",
+      "unlimitedStorage",
+      "app.window.fullscreen.overrideEsc"
+   ],
+
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   }
+}
