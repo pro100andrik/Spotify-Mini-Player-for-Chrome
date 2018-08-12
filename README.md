@@ -1,4 +1,4 @@
-# Spotify-Mini-Player-for-Chrome extension
+# Spotify Mini Player for Chrome extension
 
 
 Dot-button in header is manipulation tool for move/maximize/etc window like default window header.
